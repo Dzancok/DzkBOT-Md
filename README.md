@@ -1,4 +1,6 @@
-## HOW TO CONNECT TO MONGODB
+## Whatsapp Bot Multi Device
+
+### HOW TO CONNECT TO MONGODB
 
 * Create account and database in mongodb atlas
 * when you already have a database, you just need to take mongourl
@@ -7,7 +9,7 @@
 
 ---------
 
-## UNTUK PENGGUNA TERMUX
+### UNTUK PENGGUNA TERMUX
 ```bash
 > pkg update && pkg upgrade
 > pkg install git
