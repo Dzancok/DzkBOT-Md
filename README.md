@@ -15,10 +15,8 @@
 
 ```bash
 git clone https://github.com/ilmanhdyt/ShiraoriBOT-Md
-cd ShiraoriBOT-Md
-npm install
-npm update
-npm index
+cd DzkBOT-Md
+npm start
 ```
 
 ---------
@@ -31,32 +29,14 @@ pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
 pkg install yarn
-git clone https://github.com/ilmanhdyt/ShiraoriBOT-Md
-cd ShiraoriBOT-Md
-yarn
-npm i -g typescript
-tsc -p ./node_modules/@adiwajshing/baileys
-node .
+git clone https://github.com/Dzancok/DzkBOT-Md
+cd DzkBOT-Md
+npm start
 ```
 
 ## UNTUK PENGGUNA HEROKU
 
-### Instal Buildpack
+### buildpack Buildpack
 * heroku/nodejs
 * https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-* https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git*
-
-## Installing the FFmpeg for Windows
-* Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
-* Extract file ke `C:\` path.
-* Ganti nama folder yang telah di-extract menjadi `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Jalankan perintah berikut::
-```cmd
-> setx /m PATH "C:\ffmpeg\bin;%PATH%"
-```
-Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
-* Sekarang setelah Anda menginstal FFmpeg, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
-```cmd
-> ffmpeg -version
-```
+* https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
